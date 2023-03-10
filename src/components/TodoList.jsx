@@ -14,6 +14,7 @@ function TodoList(props) {
 								<button onClick={() => props.deleteTodo(item.id)}>
 									delete
 								</button>
+								<button onClick={() => props.setForEditVal(item)}>edit</button>
 							</li>
 						);
 					})
